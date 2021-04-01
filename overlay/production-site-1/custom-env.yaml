@@ -9,4 +9,4 @@ spec:
         - name: hello-kubernetes
           env:
             - name: MESSAGE
-              value: Test
+              value: Production Site 1

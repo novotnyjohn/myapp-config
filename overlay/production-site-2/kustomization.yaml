@@ -1,0 +1,14 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+bases:
+- ../../base
+
+patchesStrategicMerge:
+- custom-env.yaml
+
+#images:
+#- name: novotnyjohnj/hello-kubernetes
+#  newName: novotnyjohnj/hello-kubernetes
+#  newTag: 1.9
+
